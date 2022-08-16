@@ -87,9 +87,8 @@ h1 {
 
   height: 50vh;
   background: linear-gradient(#00545d, #000729);
-  position: absolute;
-  right: 0;
-  top: 66;
+  display: flex;
+  align: center;
 }
 
 .menu {
