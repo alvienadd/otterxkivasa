@@ -84,11 +84,12 @@ h1 {
 
 .side-bar {
   width: 36px;
-  height: 100vh;
+
+  height: 50vh;
   background: linear-gradient(#00545d, #000729);
   position: absolute;
   right: 0;
-  top: 0;
+  top: 66;
 }
 
 .menu {
