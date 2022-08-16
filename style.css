@@ -36,6 +36,14 @@
   justify-content: space-between;
 }
 
+.centeredHbd {
+  margin-right: 200px;
+
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+}
+
 button {
   color: #fff;
   padding: 10px 25px;
@@ -84,9 +92,9 @@ h1 {
 
 .side-bar {
   width: 36px;
-
+  margin-left: -10px;
   height: 50vh;
-  background: linear-gradient(#00545d, #000729);
+  /* background: linear-gradient(#00545d, #000729); */
   display: flex;
   align: center;
 }
@@ -186,6 +194,7 @@ h1 {
   height: 100vh;
   position: absolute;
   top: 0;
+  overflow: scroll;
 }
 
 #slideImg {
@@ -208,6 +217,7 @@ h1 {
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
+
   position: relative;
   margin: auto;
 }
